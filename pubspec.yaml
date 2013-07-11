@@ -1,0 +1,5 @@
+name: bloopblast
+description: universal baseball assocation implementation
+dependencies: 
+  unittest: any
+
