@@ -7,11 +7,6 @@ var RNG = new Random();
 
 String capitalize(String s) => '${s[0].toUpperCase()}${s.substring(1)}';
 
-String fetchFileContent(String fp) {
-  var f = new File(fp);
-  return f.readAsStringSync();
-}
-
 num largest(List l) {
   var b = 0;
   for (var e in l) {
